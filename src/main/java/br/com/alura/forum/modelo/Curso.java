@@ -17,7 +17,8 @@ public class Curso {
 		this.nome = nome;
 		this.categoria = categoria;
 	}
-	
+	public Curso() {
+	}	
 	@Override
 	public int hashCode() {
 		final int prime = 31;
