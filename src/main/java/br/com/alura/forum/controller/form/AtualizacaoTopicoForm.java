@@ -30,7 +30,7 @@ public class AtualizacaoTopicoForm {
 		Topico topico = topicoRepository.getReferenceById(id);
 		topico.setTitulo(this.titulo);
 		topico.setMensagem(this.mensagem);
-		return null;
+		return topico;
 	}
 	
 	
